@@ -383,7 +383,7 @@ align-items: center;
     width: 100%;    
     background-color: white;
     border-radius: 16px;
-    padding: 30 px;
+    padding: 30px;
     text-align: center;
 }
 .assdf{
@@ -446,4 +446,5 @@ border-radius: 4px;
 .aaf{
     background: white;
     padding: 50px;
+    border-radius: 16px;
 }
