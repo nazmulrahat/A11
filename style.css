@@ -447,4 +447,5 @@ border-radius: 4px;
     background: white;
     padding: 50px;
     border-radius: 16px;
+    display: flex;
 }
