@@ -1,0 +1,67 @@
+/* navbar  */
+#nav{
+    display: flex;
+    align-items: center;
+  justify-content: space-between;
+  margin: 30px;
+}
+.bd{
+    font-size: 32px;
+    font-weight: bold;
+}
+.sign{
+    border: 1px solid rgba(0, 106, 80, 1);
+    color: rgba(0, 106, 80, 1);
+    border-radius: 8px;
+    padding: 15px 30px;
+    background-color: white;
+   font-weight: bold;
+    
+}
+.sign:hover {
+  border: 1px solid rgb(255, 94, 19);
+    color: rgb(255, 94, 19);
+   transition: 1s;
+   transform: scale(1.05);
+}
+
+/* banner */
+#Banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(198, 228, 214, 1);
+border-radius: 24px;
+padding: 50px;
+margin:30px ;
+}
+.a2{
+    font-size: 56px;
+    font-weight: bold;
+}
+.a1{
+    font-size: 24px;
+    font-weight: normal;
+
+}
+.ab1{
+    background-color: rgba(0, 106, 80, 1);
+    color: white;
+    padding:17px 34px ;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 18px;
+}
+.ab1:hover{
+    background-color: rgb(255, 94, 19);
+  
+    transition: 1s;
+    transform: scale(1.05);
+}
+.aimg{
+    width: 474px;
+    height: 400;
+    
+}
+
+/* Pillars of "Bangladesh 2.0" */
