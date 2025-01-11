@@ -1,13 +1,17 @@
 #body{
     background-color: rgba(227, 230, 233, 0.407);
 
-    margin: 0px 50px;
+  
+}
+#main{
+  padding: 0px 50px ;
 }
 /* navbar  */
 #nav{
     display: flex;
     align-items: center;
   justify-content: space-between;
+  padding: 0px 50px ;
   
 }
 .bd{
@@ -133,6 +137,21 @@ padding: 50px;
     border-radius: 8px;
     border: none;
     
+}
+.cbtn:hover{
+    background-color: rgb(255, 94, 19);
+    transition: 1s;
+    transform: scale(1.05);
+}
+.cbtn1:hover{
+    background-color: rgb(255, 94, 19);
+    transition: 1s;
+    transform: scale(1.05);
+}
+.cbtn2:hover{
+    background-color: rgb(255, 94, 19);
+    transition: 1s;
+    transform: scale(1.05);
 }
 .cbtn2{
     color: white;
@@ -329,6 +348,102 @@ border: none;
     border-radius: 0px 8px 8px 0px;
     font-weight: bold;
 }
+.aaas1:hover{
+    background-color: rgb(255, 94, 19);
+    transition: 1s;
+    transform: scale(1.05);
+}
 .ada{
     font-size: 15px;
+}
+/* footer */
+.footer{ 
+   
+    padding: 20px 0px;
+display: flex;
+background-color: white;
+width: 100%;
+flex-direction: column;
+gap: 40px;
+justify-content: center;
+align-items: center;
+}
+.footer1{
+    display: flex;
+    
+    gap: 20px;
+}
+.fd{
+    font-size: 40px;
+    font-weight: bold;
+}
+.fd1{
+    height: fit-content;
+
+    width: 100%;    
+    background-color: white;
+    border-radius: 16px;
+    padding: 30 px;
+    text-align: center;
+}
+.assdf{
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 20px;
+    
+}
+.fd2{
+    display: flex;
+   justify-content: space-between;
+   text-align: left;
+   border: 1px solid rgba(163, 150, 150, 0.339);
+  
+
+}
+.fd23{
+    display: flex;
+   justify-content: space-between;
+   border: 1px solid rgba(163, 150, 150, 0.339);
+   padding: 15px;
+   background-color: rgba(198, 228, 214, 1);
+}
+.ff{
+    border: 1px solid rgba(163, 150, 150, 0.339);
+    width: 100%;
+}
+.ff1{
+    border: 1px solid rgba(163, 150, 150, 0.339);
+    width: 200px;
+    padding: 15px;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+}
+.ff2:hover{
+    background-color: rgb(255, 94, 19);
+    transition: 1s;
+    transform: scale(1.05);
+}
+.ff2{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    border: 1px solid rgba(163, 150, 150, 0.339);
+    width: fit-content;
+  justify-content: start;
+  align-items: center;
+gap: 5px;
+
+border-radius: 4px;
+    background-color: rgba(198, 228, 214, 1);
+    padding: 10px ;
+}
+.aaap{
+    border: 1px solid rgba(163, 150, 150, 0.339);
+    height: 75px;
+    width: 100%;
+}
+.aaf{
+    background: white;
+    padding: 50px;
 }
